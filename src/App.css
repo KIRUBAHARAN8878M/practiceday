@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+ scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  position: sticky;
+  top:0;
+  left:0;
+  z-index:100;
+  padding: .5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0,0, 0, .5);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navbarTogglerDemo01 a{
+  border-bottom: 2px solid transparent;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#navbarTogglerDemo01 a{
+  border-bottom: 2px solid transparent;
 }
-
-.App-link {
-  color: #61dafb;
+#navbarTogglerDemo01 a:hover{
+  border-bottom: 2px solid #F9BC07;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeDiv{
+  background-image: url(https://media.istockphoto.com/photos/close-up-of-rolled-colorful-clothes-on-black-background-picture-id673929544?k=20&m=673929544&s=612x612&w=0&h=LPUvrJzPCy_8OQHizNYfRTS3r9pRB2GnWD0TQr3Pckg=);
+  height:30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card{
+  background: #e5e5e5;
+}
+.productCard{
+  height: 28rem;
+  width: 16rem;
+  background: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0,0, 0, .3),
+              inset 4px 4px 10px white;
+  border-radius: 10px !important;
 }
